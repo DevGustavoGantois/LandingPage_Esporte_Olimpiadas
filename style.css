@@ -1,0 +1,410 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;  
+}
+
+body {
+    background: rgb(0,129,200);
+    background: linear-gradient(90deg, rgba(0,129,200,1) 12%, rgba(252,177,49,1) 21%, rgba(0,166,81,1) 54%, rgba(238,51,78,1) 82%);
+
+}
+
+/*Titúlo */
+h1  {
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 70px;
+    margin: 60px;
+}
+
+.title:hover {
+    color: rgb(211, 223, 42);
+    padding: 10px;
+    transition: 2s;
+}
+
+/* top of the site */
+section ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: 25px;
+}
+
+.home  {
+    text-decoration: none;
+    color: white;
+}
+
+.home:hover {
+    margin: 10px;
+    color: red;
+    transition: 1s;
+}
+
+.support {
+    text-decoration: none;
+    color: white;
+}
+
+.support:hover {
+    margin: 10px;
+    color: red;
+    transition: 1s;
+}
+
+.doubts {
+    text-decoration: none;
+    color: white;
+}
+
+.doubts:hover {
+    color: red;
+    transition: 1s;
+    margin: 10px;
+}
+
+.about-us {
+    text-decoration: none;
+    color: white;
+}
+
+.about-us:hover {
+    color: red;
+    transition: 1s;
+    margin: 10px;
+}
+
+.Instagram {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Instagram:Hover {
+    transition: 1s;
+    color: #cd6013;
+    margin: 10px;
+}
+
+.Facebook {
+    color: white;
+    text-decoration: none;
+}
+
+.Facebook:hover {
+    margin: 10px;
+    transition: 1s;
+    color: rgb(103, 103, 210);
+}
+
+.Twitter {
+    text-decoration: none;
+    color: white;
+}
+
+.Twitter:hover {
+    transition: 1s;
+    color: rgb(25, 217, 242);
+    margin: 10px;
+}
+
+img {
+    height: 450px;
+    width: 450px;
+   align-items: center;
+}
+
+.principal_container {
+    text-align: center;
+}
+
+.principal_container:hover {
+    transition: 2s;
+    padding: 20px;
+}
+
+.Ttwo {
+    color: blue;
+    font-size: 70px;
+}
+
+.Tthree {
+    color: rgb(255, 255, 255);
+}
+
+.Tfor {
+    color: rgb(248, 13, 13);
+    font-size: 50px;
+}
+
+.phrase_one {
+    margin: 30px;
+}
+
+.phrase_one:hover {
+    color: yellow;
+    transition: 2s;
+}
+
+.phrase_two:hover {
+    transition: 2s;
+    color: black;
+}
+
+.btn_one {
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+    margin: 30px;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+}
+
+.btn_one:hover {
+    transition: 2s;
+    background-color: rgb(18, 228, 35);
+}
+
+.btn_two {
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+    margin: 30px;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+}
+
+.btn_two:hover {
+    transition: 2s;
+    background-color: rgb(18, 228, 35);
+}
+
+.phrase_three {
+    margin: 50px;
+    font-size: 50px;
+    color: black;
+}
+
+.phrase_three:hover {
+    color: rgb(251, 4, 4);
+    transition: 1s;
+}
+
+
+.Sports_of_Olimpic {
+    background-color: rgb(255, 253, 253);
+}
+
+.img_karate {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_karate_two {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_karate_three  {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_karate_four  {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_karate_five {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_volei {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_volei_two {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_volei_three {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_volei_four {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_volei_five {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_basquete {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_basquete_two {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_basquete_three {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.img_basquete_four {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_basquete_five {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_judo {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_judo_two {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_judo_three {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_judo_four {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_judo_five {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_natacao {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_natacao_two {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_natacao_three {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_natacao_four {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_natacao_five {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_boxe {
+    border-radius: 30px;
+    box-sizing: 2px 2px 2px black;
+}
+
+.img_boxe_two {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_boxe_three {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_boxe_four {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.img_boxe_five {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.title_Karate {
+    color: rgb(84, 14, 14);
+    font-size: 40px;
+}
+
+.title_Volei {
+    color: rgb(193, 193, 42);
+    font-size: 40px;
+}
+
+.title_Basquete {
+    color: orange;
+    font-size: 40px;
+}
+
+.title_Judo {
+    color: blue;
+    font-size: 40px;
+}
+
+.title_Natacao {
+    color: aqua;
+    font-size: 40px;
+}
+
+.title_Boxe {
+    color: red;
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 30px;
+}
+
+
+
